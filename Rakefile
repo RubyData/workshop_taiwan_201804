@@ -1,12 +1,16 @@
 namespace :docker do
   desc "Build docker image"
   task :build do
-    sh 'docker', 'build', '-t', 'rubydata/taiwan201804:latest', './docker'
+    Dir.chdir File.expand_path('../docker', __FILE__) do
+      sh 'docker', 'build', '-t', 'rubydata/taiwan201804:latest', '.'
+    end
   end
 
   desc "Push docker image"
   task :push do
-    sh 'docker', 'push', 'rubydata/taiwan201804:latest'
+    Dir.chdir File.expand_path('../docker', __FILE__) do
+      sh 'docker', 'push', 'rubydata/taiwan201804:latest'
+    end
   end
 
   desc "Pull docker image"

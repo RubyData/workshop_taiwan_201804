@@ -29,10 +29,14 @@ RUN cd $HOME/data/cifar100 \
 
 RUN git clone https://github.com/mrkn/mxnet.rb $HOME/mxnet.rb
 
+RUN git clone https://github.com/RubyData/wine_data_viewer.git $HOME/wine_data_viewer
+
 USER root
 
 RUN cd $HOME/taiwan2018 && bundle install
 ADD start-taiwan2018.sh /usr/local/bin
+
+RUN cd $HOME/wine_data_viewer && bundle install
 
 CMD ["start-taiwan2018.sh"]
 
