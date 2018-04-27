@@ -36,6 +36,8 @@ mxnet gem is under development, but surprisingly, you can program deep learning 
 
 We will use Jupyter Notebook in the sessions.  If you want to execute codes following to the lecturer during the workshop, please prepare your execution environment for the notebooks by the following commands **before the workshop day if possible**.
 
+**NOTE: You need to install Docker before executing the following commands.**
+
 ```console
 $ git clone git@github.com:RubyData/workshop_taiwan_201804.git
 $ cd workshop_taiwan_201804
