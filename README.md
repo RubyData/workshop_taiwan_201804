@@ -14,6 +14,8 @@ In the first session, you will learn Ruby's data tools through the following top
 2. How to use and what we can do with the existing data tools for data analysis
 3. How to join the development projects
 
+[View the notebook on nbviewer.jupyter.org](http://nbviewer.jupyter.org/github/RubyData/workshop_taiwan_201804/blob/master/Session1.ipynb).
+
 ### Session 2: Introduction to pycall.rb
 
 In the second session, you will learn Ruby and Python integration through the following topics.
@@ -23,6 +25,8 @@ In the second session, you will learn Ruby and Python integration through the fo
 3. The future of pycall.rb and the other language bridging libraries
 4. How to join the development prjects
 
+[View the notebook on nbviewer.jupyter.org](http://nbviewer.jupyter.org/github/RubyData/workshop_taiwan_201804/blob/master/Session2.ipynb).
+
 ### Session 3: Introduction to machine learning programming in Ruby
 
 In the final session, you will learn machine learning programming in Ruby by using mxnet gem.
@@ -31,6 +35,8 @@ mxnet gem is under development, but surprisingly, you can program deep learning 
 1. What is Apache MXNet and mxnet gem
 2. How to program machine learning from scratch in Ruby by using mxnet gem
 3. The future development plans and how to join the development
+
+[View the notebook on nbviewer.jupyter.org](http://nbviewer.jupyter.org/github/RubyData/workshop_taiwan_201804/blob/master/Session3.ipynb).
 
 ## Preparation
 
